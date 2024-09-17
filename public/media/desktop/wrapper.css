@@ -1,0 +1,29 @@
+.wrapper {
+  display: grid;
+  direction: ltr !important;
+  /* background-color: #2b2b2b; */
+  /*first 410 was 345 but ot wasn't enough*/
+  /*first 425 was 415 but ot wasn't enough i needed margin*/
+  /*first 514 was 464 but ot wasn't enough i needed margin*/
+  /*first 518 was 464 but ot wasn't enough i needed margin*/
+  /*first 120 was 110 but ot wasn't enough i needed margin*/
+  /*first 135 was 110 but ot wasn't enough i needed margin*/
+  /*first 150 was 110 but ot wasn't enough i needed margin*/
+  /*965px 159px*/
+  /* grid-template-rows: 168px 464px 425px 166px 441px 518px 120px 135px 470px 150px 1fr 1fr 1124px; */
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header header"
+    "incredibleOffer incredibleOffer"
+    "incredibleDaily incredibleDaily"
+    "products products"
+    "incredibleChosen incredibleChosen"
+    "incredibleEnding incredibleEnding"
+    "incredibleSupermarket incredibleSupermarket"
+    "digiMember digiMember"
+    "incredibleOrdered incredibleOrdered"
+    "incredibleAll incredibleAll"
+    "incredibleProducts filters"
+    "footer footer"
+    "marks marks";
+}

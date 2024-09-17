@@ -1,0 +1,118 @@
+.digiMember {
+  grid-area: digiMember;
+  background-color: cyan;
+  margin-bottom: 25px;
+  justify-self: center;
+  position: relative;
+  height: 110px;
+  overflow: hidden;
+  width: 86%;
+  border-radius: var(--border-radius-min);
+  background: url(../../svg/digiMember/patternplus.svg) right center no-repeat,
+    url(../../svg/digiMember/patternMobile.svg) left center no-repeat;
+  border: 1px solid var(--color-neutral-100);
+
+  .opacity-div {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    background: linear-gradient(
+      274.36deg,
+      var(--color-plus-700) 10%,
+      var(--color-neutral-100) 100%
+    );
+  }
+  .khoshgel {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    right: 30px;
+    bottom: 10px;
+    img {
+      width: 461px;
+      height: 83px;
+    }
+  }
+  .time-container {
+    height: 79px;
+    width: 249px;
+    /* background-color: orange; */
+    position: absolute;
+    left: 30px;
+    bottom: 14px;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 3px;
+    direction: rtl;
+    .topSection {
+      height: 34px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      /* background-color: brown; */
+      h4 {
+        color: rgb(177, 43, 164);
+      }
+      img {
+        height: 20px;
+        width: 20px;
+        margin-left: 4px;
+      }
+    }
+    .bottomSection {
+      flex: 1;
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      .rightSection {
+        width: 153px;
+        height: 100%;
+        /* background-color: #8b8b8b; */
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        column-gap: 8px;
+        div {
+          width: 40px;
+          height: 100%;
+          background-color: yellow;
+          border-radius: var(--border-radius-min);
+          /* padding: 4px 12px; */
+          display: flex;
+          flex-flow: column wrap;
+          background-color: white;
+          .topSection {
+            flex: 1;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: var(--fontnaz);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .bottomSection {
+            font-size: 11px;
+            height: 10px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--fontnaz);
+          }
+        }
+      }
+      .leftSection {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        /* background-color: #9b9b9b; */
+        color: rgb(177, 43, 164);
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
