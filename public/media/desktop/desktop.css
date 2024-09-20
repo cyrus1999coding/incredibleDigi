@@ -1,5 +1,5 @@
-@import url(main.css);
-@import url(wrapper.css);
+@import url(./main.css);
+@import url(./wrapper.css);
 @import url(./header.css);
 @import url(./incredibleOffer);
 @import url(./incredibleDaily.css);
